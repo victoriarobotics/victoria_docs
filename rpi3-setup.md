@@ -26,7 +26,7 @@ Once the SD card has been imaged, Ubuntu can be configured using the Raspberry P
   * Your name: Team Victoria
   * Computer name: Victoria
   * Username: team-victoria
-  * Password: r0b0magellan
+  * Password: `r0b0magellan`
 * System will then be installed and rebooted
 * Login as team-victoria
 * Repartition the image to use full SD card:
@@ -37,7 +37,7 @@ Once the SD card has been imaged, Ubuntu can be configured using the Raspberry P
   * Delete existing partition 2: d, 2
   * Create a new parition 2: n, p, 2, enter, enter
   * Write the partition, exit fdisk: w
-  * Reboot
+  * Reboot, login as team-victoria
   * Open Terminal
   ```
   sudo resize2fs /dev/mmcblk0p2
