@@ -80,4 +80,30 @@ These steps install the full desktop version.
 * `sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116`
 * `sudo apt-get update`
 * `sudo apt-get install ros-kinetic-desktop-full`
-* ``
+* `sudo rosdep init`
+* `rosdep update`
+* `echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc`
+* `source ~/.bashrc`
+* `sudo apt-get install python-rosinstall`
+
+## Additional Installations
+The following installations are not required for the stock Raspberry Pi setup. However,
+for development purposes it is useful to have them installed on the Raspberry Pi.
+
+### Install Arduino IDE
+For Teensy development, we are using the 1.6.12 version of the Arduino IDE.
+
+* Download the 1.6.12 version (see https://www.arduino.cc/en/Main/OldSoftwareReleases#previous).
+Make sure to download the "Linux Arm" version.
+* Assuming the file was downloaded to ~/Downloads:
+  * Open Terminal
+  * `cd ~/Downloads`
+  * `tar -xf arduino-1.6.12-linuxarm.tar.xz`
+  * `cd ~`
+  * `mv ~/Downloads/arduino-1.6.12/ ~/`
+  * `cd arduino-1.6.12`
+  * `sudo ./install.sh`
+  
+## Install TeensyDuino
+
+## Install rosserial_arduino
