@@ -82,7 +82,7 @@ You can use git to clone copies of the libraries.
 * `git clone https://github.com/victoriarobotics/lis3mdl-arduino.git`
 * `git clone https://github.com/victoriarobotics/lsm6-arduino.git`
 
-## Using zip archives
+### Using zip archives
 You can download zip archives from github and install the libraries manually.
 
 * Navigate to https://github.com/victoriarobotics/lis3mdl-arduino and download the zip file.
