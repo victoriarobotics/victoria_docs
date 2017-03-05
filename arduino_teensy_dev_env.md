@@ -3,7 +3,7 @@ This document covers the steps to install the required development environment u
 the Arduino-Teensy code used for the 2017 RoboMagellan robot.
 
 These steps are not required to install the software that will run the robot, only for developing the Arduino-Teensy
-code thar tuns the robot.
+code that runs the robot.
 
 ## Install Arduino IDE
 For Teensy development, we are using the 1.6.12 version of the Arduino IDE.
