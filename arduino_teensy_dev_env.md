@@ -117,7 +117,7 @@ You can download zip archives from github and install the repository manually.
   * Open Terminal
   * `cd ~/Downloads`
   * `unzip victoria_platform-master.zip`
-  * `mv victoria_platform-master ~`
+  * `mv victoria_platform-master ~/victoria_platform`
 
 This will result in the ~/victoria_platform directory being created.
 
