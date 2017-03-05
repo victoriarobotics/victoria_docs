@@ -67,5 +67,58 @@ These instructions will install the Kinetic version.
 This will result in a directory at ~/Arduino/libraries/ros_lib.
 
 ## Install Pololu IMU and Mangetometer Libraries
+The Pololu [MinIMU-9 v5](https://www.pololu.com/product/2738) is used for gyro, accelerometer, and
+compass data. Pololu provides libraries that access the LSM6DS33 and LIS3MDL chips via I2C. The
+stock versions of these libraries use the Arduino Wire library, which is not directly compatible
+with the Teensy. So, the Team Victoria repository contains forked versions of the original
+repositories with modified versions to use the Teensy i2c_t3 library instead. These versions
+of the modified libraries need to be installed before compiling the Team Victoria Teensy code.
 
-## Install Victoria Repository
+### Using git clone
+You can use git to clone copies of the libraries.
+
+* Open Terminal
+* `cd ~/Arduino/libraries`
+* `git clone https://github.com/victoriarobotics/lis3mdl-arduino.git`
+* `git clone https://github.com/victoriarobotics/lsm6-arduino.git`
+
+## Using zip archives
+You can download zip archives from github and install the libraries manually.
+
+* Navigate to https://github.com/victoriarobotics/lis3mdl-arduino and download the zip file.
+* Navigate to https://github.com/victoriarobotics/lsm6-arduino and download the zip file.
+* Assuming the files were downloaded to ~/Downloads:
+  * Open Terminal
+  * `cd ~/Downloads`
+  * `unzip lis3mdl-arduino-master.zip`
+  * `unzip lsm6-arduino-master.zip`
+  * `mv lis3mdl-arduino-master ~/Arduino/libraries/lis3mdl-arduino`
+  * `mv lsm6-arduino-master ~/Arduino/libraries/lsm6-arduino`
+
+This will result in two directiories being added to ~/Arduino/libraries, lis3mdl-arduino
+and lsm6-arduino.
+
+## Install Victoria Platform Repository
+Now everything needed to develop the Team Victoria Teensy code is installed. Now the
+Team Victoria Platform repository can be installed.
+
+### Using git clone
+You can use git to clone the repository.
+
+* Open Terminal
+* `cd ~`
+* `git clone https://github.com/victoriarobotics/victoria_platform.git`
+
+### Using zip archives
+You can download zip archives from github and install the repository manually.
+
+* Navigate to https://github.com/victoriarobotics/victoria_platform and download the zip file.
+* Assuming the files were downloaded to ~/Downloads:
+  * Open Terminal
+  * `cd ~/Downloads`
+  * `unzip victoria_platform-master.zip`
+  * `mv victoria_platform-master ~`
+
+This will result in the ~/victoria_platform directory being created.
+
+You can now use the Arduino IDE to compile any sketches located in ~/victoria_platform/Arduino.
