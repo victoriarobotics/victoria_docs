@@ -3,4 +3,4 @@
 * Soldering Iron (Mark)
 * Wire cutters/stipper (Mark)
 * Crimper (Mark)
-* Jewler Screwdrivers (Flat, Philips) (Mark)
+* Jeweler Screwdrivers (Flat, Philips) (Mark)
