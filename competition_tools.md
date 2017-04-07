@@ -1,0 +1,6 @@
+* Torx T-20 (Mark)
+* Walking measure (Mark)
+* Soldering Iron (Mark)
+* Wire cutters/stipper (Mark)
+* Crimper (Mark)
+* Jewler Screwdrivers (Flat, Philips) (Mark)
