@@ -1,3 +1,4 @@
+* Duct Tape (Everyone)
 * Torx T-20 (Mark)
 * Walking measure (Mark)
 * Soldering Iron (Mark)
