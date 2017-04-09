@@ -7,3 +7,4 @@
 * Crimper (mwomack)
 * Jeweler Screwdrivers (Flat, Philips) (mwomack)
 * Keyboard, mouse, flatscreen monitor (mwomack)
+* Voltmeter (mwomack)
