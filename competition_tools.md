@@ -8,3 +8,4 @@
 * Jeweler Screwdrivers (Flat, Philips) (mwomack)
 * Keyboard, mouse, flatscreen monitor (mwomack)
 * Voltmeter (mwomack)
+* Small metal files (mwomack)
