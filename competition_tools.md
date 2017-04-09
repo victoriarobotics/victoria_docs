@@ -1,5 +1,6 @@
 * Duct Tape (Everyone)
-* Torx T-20 (mwomack)
+* Torx drivers (mwomack)
+* Hex drivers (metric & imperial) (mwomack)
 * Walking measure (mwomack)
 * Soldering Iron (mwomack)
 * Wire cutters/stipper (mwomack)
