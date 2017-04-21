@@ -9,3 +9,5 @@
 * Keyboard, mouse, flatscreen monitor (mwomack)
 * Voltmeter (mwomack)
 * Small metal files (mwomack)
+* Heavy duty extension cords (mwomack)
+* Plug bar (mwomack)
