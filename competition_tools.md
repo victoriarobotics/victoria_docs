@@ -13,3 +13,5 @@
 * Plug bar (mwomack)
 * Battery charger (gbrooks)
 * Battery Power Supply (gbrooks)
+* R/C Controller (gbrooks)
+* Phone charger (mwomack)
