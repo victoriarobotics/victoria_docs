@@ -14,3 +14,5 @@
 * Same r200
 * Same Teensy
 * Cooler bumper technology
+* Speaker
+* LEDs
